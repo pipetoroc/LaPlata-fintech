@@ -12,7 +12,7 @@ The project was based on design using Figma and the implementation of responsive
 
 ## **Link Demo**
 Puedes visitar el resultado en el link: 
-	[La Plata](https://www.pipetoroc.github.io/la-plata-fintech)
+	[La Plata](https://pipetoroc.github.io/la-plata-fintech/)
 
 ## **Technologies**
 
