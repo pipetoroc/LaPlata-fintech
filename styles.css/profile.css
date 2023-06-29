@@ -1,0 +1,129 @@
+@import url("../styles.css/style.css");
+
+.logo{
+  width: 60px;
+  padding: 4px;
+  background-color: var(--light-color);
+}
+.navbar-collapse{
+  align-items: center;
+  justify-content: space-between;
+}
+.my-navbar{
+  border-bottom: solid 2px var(--secondary-color);
+  background-color: rgb(220, 220, 220);
+}
+.my-card{
+  background-color: rgb(220, 220, 220);
+}
+.balance{
+  padding: 24px;
+  font-size: 3rem;
+  text-align: center;
+  background-color: var(--background-color);
+  color: var(--light-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 8px;
+}
+
+.graphic{
+  display: grid;
+  grid-template-areas: 
+    "cinco mg tg wg thg fg sg sug"
+    "cuatro mg tg wg thg fg sg sug"
+    "tres mg tg wg thg fg sg sug"
+    "dos mg tg wg thg fg sg sug"
+    "uno mg tg wg thg fg sg sug"
+    "cero monday tuesday wednesday thursday friday saturday sunday";
+  grid-template-columns: repeat(8, minmax(30px, 80px));
+  grid-template-rows: repeat(6, 1fr);
+  gap: 4px;
+  width: 100%;
+  min-height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+  color: var(--light-color);
+}
+.progress{
+  background-color: var(--accent-color);
+}
+.cero{
+  grid-area: cero;
+}
+.uno{
+  grid-area: uno;
+}
+.dos{
+  grid-area: dos;
+}
+.tres{
+  grid-area: tres;
+}
+.cuatro{
+  grid-area: cuatro;
+}
+.cinco{
+  grid-area: cinco;
+}
+.monday{
+  grid-area: monday;
+}
+.tuesday{
+  grid-area: tuesday;
+}
+.wednesday{
+  grid-area: wednesday;
+}
+.thursday{
+  grid-area: thursday;
+}
+.friday{
+  grid-area: friday;
+}
+.saturday{
+  grid-area: saturday;
+}
+.sunday{
+  grid-area: sunday;
+}
+.g{
+  align-self: end;
+}
+.mg{
+  grid-area: mg;
+  height: 80%;
+}
+.tg{
+  grid-area: tg;
+  height: 50%;
+}
+.wg{
+  height: 70%;
+  grid-area: wg;
+}
+.thg{
+  height: 40%;
+  grid-area: thg;
+}
+.fg{
+  height: 90%;
+  grid-area: fg;
+}
+.sg{
+  height: 80%;
+  grid-area: sg;}
+.sug{
+  height: 20%;
+  grid-area: sug;
+}
+
+
+
+
+@media screen and (max-width: 767.5px) {
+  .logo{
+    display: none;
+  }
+}

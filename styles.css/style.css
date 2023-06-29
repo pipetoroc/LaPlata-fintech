@@ -1,0 +1,49 @@
+:root{
+  --primary-color: #0c4748;
+  --light-color: #ffffff;
+  --accent-color: #f6f878;
+  --dark-color: #000;
+  --background-color: rgba(121, 119, 119, 0.51);
+  --secondary-color: #ff6949;
+}
+
+body{
+  background-color: var(--primary-color);
+}
+main{
+  position: relative;
+  min-height: 100vh;
+  overflow:hidden;
+}
+body{
+  font-family: 'Roboto Slab', serif;
+}
+h1{
+  color: var(--accent-color);
+  border-bottom: solid var(--secondary-color);
+  border-right: solid var(--secondary-color);
+  border-bottom-right-radius: 90%;
+}
+p, h2{
+  color: var(--light-color);
+}
+.my-button{
+  position: relative;
+  background-color: var(--accent-color);
+  color: var(--dark-color);
+  border: none;
+}
+.my-button:hover{
+  background-color: var(--secondary-color);
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+  background-color: Black;
+  color: White;
+} 
+i{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+}
+
